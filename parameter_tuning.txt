@@ -1,0 +1,119 @@
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed: 11.3min finished
+These are rf best params: 
+{'bootstrap': False, 'min_samples_leaf': 1, 'n_estimators': 1600, 'max_features': 'sqrt', 'min_samples_split': 5, 'max_depth': 70}
+Correct predictions:  2190
+Correct random predictions:  2184
+This is the accuracy of base:  0.871121718377
+This is the accuracy of random:  0.868735083532
+
+
+
+
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed: 10.2min finished
+These are rf best params: 
+{'bootstrap': False, 'min_samples_leaf': 1, 'n_estimators': 1000, 'max_features': 'auto', 'min_samples_split': 2, 'max_depth': 50}
+Correct predictions:  2184
+Correct random predictions:  2182
+This is the accuracy of base:  0.868735083532
+This is the accuracy of random:  0.867939538584
+
+
+
+[Parallel(n_jobs=-1)]: Done 1350 out of 1350 | elapsed: 25.9min finished
+These are grid_search best params: 
+{'bootstrap': False, 'min_samples_leaf': 1, 'n_estimators': 100, 'min_samples_split': 2, 'max_features': 'auto', 'max_depth': 80}
+Correct crossgrid predictions:  2162
+This is the accuracy of grid_search:  0.859984089101
+Correct predictions:  2168
+This is the accuracy of base:  0.862370723946
+
+
+
+These are grid_search best params: 
+{'bootstrap': False, 'min_samples_leaf': 3, 'n_estimators': 70, 'min_samples_split': 3, 'max_features': 'auto', 'max_depth': 80}
+Correct crossgrid predictions:  2179
+This is the accuracy of grid_search:  0.866746221161
+Correct predictions:  2196
+This is the accuracy of base:  0.873508353222
+
+
+These are grid_search best params: 
+{'bootstrap': False, 'min_samples_leaf': 2, 'n_estimators': 100, 'min_samples_split': 2, 'max_features': 'auto', 'max_depth': 80}
+Correct crossgrid predictions:  2185
+This is the accuracy of grid_search:  0.869132856006
+Correct predictions:  2186
+This is the accuracy of base:  0.869530628481
+
+
+These are grid_search best params: 
+{'bootstrap': False, 'min_samples_leaf': 3, 'n_estimators': 65, 'min_samples_split': 4, 'max_features': 'sqrt', 'max_depth': 90}
+Correct crossgrid predictions:  2187
+This is the accuracy of grid_search:  0.869928400955
+Correct predictions:  2188
+This is the accuracy of base:  0.870326173429
+
+
+These are grid_search best params: 
+{'bootstrap': False, 'min_samples_leaf': 2, 'n_estimators': 100, 'min_samples_split': 3, 'max_features': 'auto', 'max_depth': 70}
+Correct crossgrid predictions:  2160
+This is the accuracy of grid_search:  0.859188544153
+Correct predictions:  2151
+This is the accuracy of base:  0.855608591885
+
+
+
+clf = RandomForestClassifier(n_estimators=1000, min_samples_leaf = 1, bootstrap=False)
+Correct predictions:  2195
+This is the accuracy of base:  0.873110580748
+
+
+
+clf = RandomForestClassifier(n_estimators=10, min_samples_leaf = 1, bootstrap=False)
+Correct predictions:  2135
+This is the accuracy of base:  0.849244232299
+
+clf = RandomForestClassifier(n_estimators=50, min_samples_leaf = 1, bootstrap=False)
+Correct predictions:  2164
+This is the accuracy of base:  0.860779634049
+
+
+clf = RandomForestClassifier(n_estimators=500, min_samples_leaf = 1, bootstrap=False)
+Correct predictions:  2181
+This is the accuracy of base:  0.86754176611
+
+
+Correct predictions:  2172
+This is the accuracy of base:  0.863961813842
+
+
+
+
+
+
+
+full data shape:  (8378, 66)
+D_train Shape:  (5864, 66)
+D_test Shape:  (2514, 66)
+Correct predictions:  2175
+This is the accuracy of base:  0.865155131265
+
+
+
+
+
+Correct predictions2:  446
+Total actuals2 len:  526
+This is the accuracy2 of base:  0.847908745247
+
+
+
+
+
+clf = RandomForestClassifier(n_estimators=100, min_samples_leaf = 1, bootstrap=False)
+
+Correct predictions:  2204
+This is the accuracy of base:  0.876690533015
+
+Correct predictions2:  441
+Total actuals2 len:  526
+This is the accuracy2 of base:  0.838403041825
